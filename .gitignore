@@ -6,22 +6,69 @@
 /pics/node_modules
 /seasons/node_modules
 
-/.pnp
+/components/.pnp.js
+/jsx/.pnp.js
+/pics/.pnp.js
+/seasons/.pnp.js
 .pnp.js
 
 # testing
-/coverage
+/components/coverage
+/jsx/coverage
+/pics/coverage
+/seasons/coverage
 
 # production
-/build
+/components/build
+/jsx/build
+/pics/build
+/seasons/build
 
 # misc
+/components/.DS_Store
+/jsx/.DS_Store
+/pics/.DS_Store
+/seasons/.DS_Store
 .DS_Store
+
+/components/.env.local
+/jsx/.env.local
+/pics/.env.local
+/seasons/.env.local
 .env.local
+
+/components/.env.development.local
+/jsx/.env.development.local
+/pics/.env.development.local
+/seasons/.env.development.local
 .env.development.local
+
+/components/.env.test.local
+/jsx/.env.test.local
+/pics/.env.test.local
+/seasons/.env.test.local
 .env.test.local
+
+/components/.env.production.local
+/jsx/.env.production.local
+/pics/.env.production.local
+/seasons/.env.production.local
 .env.production.local
 
+/components/npm-debug.log*
+/jsx/npm-debug.log*
+/pics/npm-debug.log*
+/seasons/npm-debug.log*
 npm-debug.log*
+
+/components/yarn-debug.log*
+/jsx/yarn-debug.log*
+/pics/yarn-debug.log*
+/seasons/yarn-debug.log*
 yarn-debug.log*
+
+/components/yarn-error.log*
+/jsx/yarn-error.log*
+/pics/yarn-error.log*
+/seasons/yarn-error.log*
 yarn-error.log*
